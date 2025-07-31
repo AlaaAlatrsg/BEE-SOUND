@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 50px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.chk-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+
+.chk-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.chk-nav h2{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+
+.shp{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.shp div{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    justify-content: right;
+    width: 60%;
+}
+
+.inpt-boxs{
+    background-color: rgb(232, 232, 232);
+    padding: 15px 60px 15px 20px;
+    border: none;
+    border-radius: 6px;
+}
+.inpt-boxs::placeholder{
+    color: rgb(120, 120, 120);
+}
+
+
+.card-det{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-det h2{
+    margin-bottom: 10PX;
+    font-weight: normal;
+}
+
+.ex-date{
+    background-color: rgb(232, 232, 232);
+    padding: 15px 20px 15px 20px;
+    border: none;
+    border-radius: 6px;
+    max-width: 60%;
+}
+.cvc{
+    background-color: rgb(232, 232, 232);
+    padding: 15px 20px 15px 20px;
+    border: none;
+    border-radius: 6px;
+    width: 40%;
+}
+
+.card-inpt{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-inpt div{
+    display: flex;
+    gap: 10px;
+}
+button{
+    background-color: rgb(175, 54, 123);
+    padding: 15px 100px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
